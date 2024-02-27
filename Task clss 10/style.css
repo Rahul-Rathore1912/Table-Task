@@ -1,0 +1,66 @@
+* {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+table {
+    margin-left: 40px;
+    border: 1px solid white;
+    height: 70%;
+    width: 80%;
+}
+
+tr,td {
+    border: 1px solid white;
+    height: 40px;
+}
+
+#white {
+    color: black;
+    background-color: white;
+    text-align:left;
+}
+#yellow {
+    color: white;
+    background-color: rgb(114, 114, 18);
+}
+#red {
+    color: white;
+    background-color: red;
+}
+#skyblue {
+    color: white;
+    background-color: skyblue;
+}
+
+.center {
+    text-align: center;
+}
+#none {
+    color: black;
+}
+#lrcenter {
+    text-align: center;
+}
+.radius {
+    color: white;
+    background-color: red;
+    border-radius: 14px;
+}
+#yelo {
+    text-align: center;
+    color: rgb(76, 76, 14);
+}
+#re {
+    text-align: center;
+    color: red;
+}
+#sky {
+    text-align: center;
+    color: skyblue;
+}
+td,th :hover {
+    opacity: 1;
+    transition: 1s;
+}
